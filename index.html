@@ -12,26 +12,52 @@
         }
 
         .top-section{
-            background-color:black;
-            color:white;
+            background-color:rgb(158, 4, 4);
+            color:rgb(232, 236, 236);
             display:flex;
             justify-content:space-between;
             align-items:center;
             padding:80px;
-            fontfamily:Times New Roman, serif;
+            font-family:Times New Roman, serif;
         }
 
         .top-section img{
-            width:400px;
+            width:500px;
             height:400px;
-            border-radius:10px;
+            border-radius:20px;
         }
         .about{
-    text-align:center;
-    padding:40px;
-    background-color:#f2f2f2;
-    font-family:Times New Roman, serif;
-}
+            text-align:center;
+            padding:80px;
+            background-color:#ffffff;
+            align-items:center;
+            font-family:Times New Roman, serif;
+        }
+        .projects{
+            text-align:center;
+            padding:80px;
+            background-color:rgb(158, 4, 4);
+            align-items:center;
+            color:rgb(232, 236, 236);
+            font-family:Times New Roman, serif;
+        }
+        .skills{
+            text-align:center;  
+            padding:80px;
+            background-color:#ffffff;
+            align-items:center;
+            color:black;
+            font-family:Times New Roman, serif;
+         }
+        .contact{
+            text-align:center;  
+            padding:80px;
+            background-color:rgb(158, 4, 4);
+            align-items:center;
+            color:rgb(232, 236, 236);
+            font-family:Times New Roman, serif;
+        }
+
 
     </style>
 </head>
@@ -40,11 +66,11 @@
     <div class="top-section">
 
         <div>
-            <h1>Daya Aravind</h1>
-            <p>Frontend developer focused on clean, accessible interfaces and simple UX.</p>
+            <h1 style="font-family:Showcard Gothic; font-size: 50px;">DAYA ARAVIND</h1>
+            <p style="font-family:Times New Roman, serif; font-size: 20px;">Learning | Coding | Building</p>
         </div>
 
-        <img src="c:\Users\Admin\OneDrive\Desktop\my files\WhatsApp Image 2026-06-12 at 9.36.43 PM.jpeg" alt="My Image">
+        <img src="bitimoji.png" alt="My Image">
 
     </div>
 
@@ -54,16 +80,47 @@
 
     <p>
         <p>
-            Hello! My name is Daya Aravind.
-            <br>I am learning HTML, CSS, and JavaScript.
-            <br>I enjoy building simple and attractive web pages and improving my web development skills.  
+            Hi! I'm a second-year B.Tech Computer Science student passionate about coding and technology. 
+            <br>I love learning new skills, building projects, and exploring the world of software development.
+            <br> I'm always eager to grow as a developer and take on new challenges.
+            
         </p>
     </p>
 
-</div>
+    </div>
+    
+    <div class="projects">
+        <h2>Projects</h2>
+        <p>Project done in an hackathon: DIGITAL WARDROBE</p>
+         
+    </div>
+
+    <div class="skills">
+        <h2>Skills</h2>
+        <pr>
+            HTLM<br>
+            CSS<br>
+            JavaScript<br>
+            Python<br>
+            C</pr>
+            SQL<br>
+            JAVA<br>
+        </pr>
+    </div>  
+
+    <div class="contact">
+            <h2>Contact</h2>
+             <form action="">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name"><br><br>
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email"><br><br>
+        <label for="message">Message:</label><br>
+        <textarea id="message" name="message" rows="4" cols="50"></textarea><br><br>            
+        <input type="submit" value="Send">
+    </form>
+     </div>
 
 </body>
-
-
 
 </html>
